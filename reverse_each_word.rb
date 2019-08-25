@@ -6,7 +6,7 @@ def reverse_each_word(string = "")
     reversedArray.unshift(arrayFromString[counter].reverse)
     counter +=1
   end
-arrayFromString
+reversedArray
 end
 
 
