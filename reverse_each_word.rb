@@ -3,7 +3,8 @@ def reverse_each_word(string = "")
   reversedArray = []
   counter = 0
   while counter <= arrayFromString.length do
-    reversedArray.unshift(arrayFromString[counter].reverse)
+    reversedArray.unshift(arrayFromString[counter])
+    arrayFromString[counter].reverse
     counter +=1
   end
 reversedArray
