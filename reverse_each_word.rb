@@ -6,6 +6,7 @@ def reverse_each_word(string = "")
     reversedArray.unshift(arrayFromString[counter])
   arrayFromString
 end
+end
 
 
 #take a string
