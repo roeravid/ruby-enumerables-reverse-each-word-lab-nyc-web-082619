@@ -4,7 +4,7 @@ def reverse_each_word(string = "")
   counter = 0
   while counter <= arrayFromString.length do
     reversedArray.unshift(arrayFromString[counter])
-  arrayFromString  
+  arrayFromString
 end
 
 
